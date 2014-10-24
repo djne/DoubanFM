@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220979E019EFECF30031C4C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220979DF19EFECF30031C4C0 /* AppDelegate.swift */; };
+		220979E219EFECF30031C4C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220979E119EFECF30031C4C0 /* ViewController.swift */; };
+		220979E519EFECF30031C4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220979E319EFECF30031C4C0 /* Main.storyboard */; };
+		220979E719EFECF30031C4C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220979E619EFECF30031C4C0 /* Images.xcassets */; };
+		220979EA19EFECF30031C4C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220979E819EFECF30031C4C0 /* LaunchScreen.xib */; };
+		220979F619EFECF30031C4C0 /* DoubanFMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220979F519EFECF30031C4C0 /* DoubanFMTests.swift */; };
+		22097A0419EFED040031C4C0 /* btnChannel.png in Resources */ = {isa = PBXBuildFile; fileRef = 22097A0019EFED040031C4C0 /* btnChannel.png */; };
+		22097A0519EFED040031C4C0 /* btnPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 22097A0119EFED040031C4C0 /* btnPlay.png */; };
+		22097A0619EFED040031C4C0 /* detail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22097A0219EFED040031C4C0 /* detail.jpg */; };
+		22097A0719EFED040031C4C0 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22097A0319EFED040031C4C0 /* logo.jpg */; };
+		22097A0919EFF2490031C4C0 /* ChannelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22097A0819EFF2490031C4C0 /* ChannelController.swift */; };
+		22097A0B19F005080031C4C0 /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22097A0A19F005080031C4C0 /* HttpController.swift */; };
+		22097A0E19F0D7920031C4C0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22097A0D19F0D7920031C4C0 /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		220979F019EFECF30031C4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220979D219EFECF30031C4C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220979D919EFECF30031C4C0;
+			remoteInfo = DoubanFM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		220979DA19EFECF30031C4C0 /* DoubanFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		220979DE19EFECF30031C4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220979DF19EFECF30031C4C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		220979E119EFECF30031C4C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		220979E419EFECF30031C4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		220979E619EFECF30031C4C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		220979E919EFECF30031C4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		220979EF19EFECF30031C4C0 /* DoubanFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubanFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		220979F419EFECF30031C4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220979F519EFECF30031C4C0 /* DoubanFMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanFMTests.swift; sourceTree = "<group>"; };
+		22097A0019EFED040031C4C0 /* btnChannel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnChannel.png; sourceTree = "<group>"; };
+		22097A0119EFED040031C4C0 /* btnPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnPlay.png; sourceTree = "<group>"; };
+		22097A0219EFED040031C4C0 /* detail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detail.jpg; sourceTree = "<group>"; };
+		22097A0319EFED040031C4C0 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		22097A0819EFF2490031C4C0 /* ChannelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelController.swift; sourceTree = "<group>"; };
+		22097A0A19F005080031C4C0 /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
+		22097A0C19F0D7920031C4C0 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		22097A0D19F0D7920031C4C0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220979D719EFECF30031C4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220979EC19EFECF30031C4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220979D119EFECF30031C4C0 = {
+			isa = PBXGroup;
+			children = (
+				220979DC19EFECF30031C4C0 /* DoubanFM */,
+				220979F219EFECF30031C4C0 /* DoubanFMTests */,
+				220979DB19EFECF30031C4C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		220979DB19EFECF30031C4C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220979DA19EFECF30031C4C0 /* DoubanFM.app */,
+				220979EF19EFECF30031C4C0 /* DoubanFMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220979DC19EFECF30031C4C0 /* DoubanFM */ = {
+			isa = PBXGroup;
+			children = (
+				22097A0C19F0D7920031C4C0 /* SwiftyJSON.h */,
+				22097A0D19F0D7920031C4C0 /* SwiftyJSON.swift */,
+				22097A0A19F005080031C4C0 /* HttpController.swift */,
+				22097A0819EFF2490031C4C0 /* ChannelController.swift */,
+				220979FF19EFED040031C4C0 /* images */,
+				220979DF19EFECF30031C4C0 /* AppDelegate.swift */,
+				220979E119EFECF30031C4C0 /* ViewController.swift */,
+				220979E319EFECF30031C4C0 /* Main.storyboard */,
+				220979E619EFECF30031C4C0 /* Images.xcassets */,
+				220979E819EFECF30031C4C0 /* LaunchScreen.xib */,
+				220979DD19EFECF30031C4C0 /* Supporting Files */,
+			);
+			path = DoubanFM;
+			sourceTree = "<group>";
+		};
+		220979DD19EFECF30031C4C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				220979DE19EFECF30031C4C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		220979F219EFECF30031C4C0 /* DoubanFMTests */ = {
+			isa = PBXGroup;
+			children = (
+				220979F519EFECF30031C4C0 /* DoubanFMTests.swift */,
+				220979F319EFECF30031C4C0 /* Supporting Files */,
+			);
+			path = DoubanFMTests;
+			sourceTree = "<group>";
+		};
+		220979F319EFECF30031C4C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				220979F419EFECF30031C4C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		220979FF19EFED040031C4C0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				22097A0019EFED040031C4C0 /* btnChannel.png */,
+				22097A0119EFED040031C4C0 /* btnPlay.png */,
+				22097A0219EFED040031C4C0 /* detail.jpg */,
+				22097A0319EFED040031C4C0 /* logo.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220979D919EFECF30031C4C0 /* DoubanFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220979F919EFECF30031C4C0 /* Build configuration list for PBXNativeTarget "DoubanFM" */;
+			buildPhases = (
+				220979D619EFECF30031C4C0 /* Sources */,
+				220979D719EFECF30031C4C0 /* Frameworks */,
+				220979D819EFECF30031C4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubanFM;
+			productName = DoubanFM;
+			productReference = 220979DA19EFECF30031C4C0 /* DoubanFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		220979EE19EFECF30031C4C0 /* DoubanFMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220979FC19EFECF30031C4C0 /* Build configuration list for PBXNativeTarget "DoubanFMTests" */;
+			buildPhases = (
+				220979EB19EFECF30031C4C0 /* Sources */,
+				220979EC19EFECF30031C4C0 /* Frameworks */,
+				220979ED19EFECF30031C4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220979F119EFECF30031C4C0 /* PBXTargetDependency */,
+			);
+			name = DoubanFMTests;
+			productName = DoubanFMTests;
+			productReference = 220979EF19EFECF30031C4C0 /* DoubanFMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220979D219EFECF30031C4C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = DJ;
+				TargetAttributes = {
+					220979D919EFECF30031C4C0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					220979EE19EFECF30031C4C0 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 220979D919EFECF30031C4C0;
+					};
+				};
+			};
+			buildConfigurationList = 220979D519EFECF30031C4C0 /* Build configuration list for PBXProject "DoubanFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 220979D119EFECF30031C4C0;
+			productRefGroup = 220979DB19EFECF30031C4C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220979D919EFECF30031C4C0 /* DoubanFM */,
+				220979EE19EFECF30031C4C0 /* DoubanFMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220979D819EFECF30031C4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220979E519EFECF30031C4C0 /* Main.storyboard in Resources */,
+				22097A0519EFED040031C4C0 /* btnPlay.png in Resources */,
+				220979EA19EFECF30031C4C0 /* LaunchScreen.xib in Resources */,
+				22097A0419EFED040031C4C0 /* btnChannel.png in Resources */,
+				22097A0719EFED040031C4C0 /* logo.jpg in Resources */,
+				22097A0619EFED040031C4C0 /* detail.jpg in Resources */,
+				220979E719EFECF30031C4C0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220979ED19EFECF30031C4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220979D619EFECF30031C4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220979E219EFECF30031C4C0 /* ViewController.swift in Sources */,
+				220979E019EFECF30031C4C0 /* AppDelegate.swift in Sources */,
+				22097A0919EFF2490031C4C0 /* ChannelController.swift in Sources */,
+				22097A0E19F0D7920031C4C0 /* SwiftyJSON.swift in Sources */,
+				22097A0B19F005080031C4C0 /* HttpController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220979EB19EFECF30031C4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220979F619EFECF30031C4C0 /* DoubanFMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		220979F119EFECF30031C4C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220979D919EFECF30031C4C0 /* DoubanFM */;
+			targetProxy = 220979F019EFECF30031C4C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		220979E319EFECF30031C4C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220979E419EFECF30031C4C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		220979E819EFECF30031C4C0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220979E919EFECF30031C4C0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		220979F719EFECF30031C4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		220979F819EFECF30031C4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		220979FA19EFECF30031C4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoubanFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		220979FB19EFECF30031C4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoubanFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		220979FD19EFECF30031C4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DoubanFMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubanFM.app/DoubanFM";
+			};
+			name = Debug;
+		};
+		220979FE19EFECF30031C4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DoubanFMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubanFM.app/DoubanFM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220979D519EFECF30031C4C0 /* Build configuration list for PBXProject "DoubanFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220979F719EFECF30031C4C0 /* Debug */,
+				220979F819EFECF30031C4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220979F919EFECF30031C4C0 /* Build configuration list for PBXNativeTarget "DoubanFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220979FA19EFECF30031C4C0 /* Debug */,
+				220979FB19EFECF30031C4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220979FC19EFECF30031C4C0 /* Build configuration list for PBXNativeTarget "DoubanFMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220979FD19EFECF30031C4C0 /* Debug */,
+				220979FE19EFECF30031C4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 220979D219EFECF30031C4C0 /* Project object */;
+}
